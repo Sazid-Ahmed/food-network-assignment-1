@@ -8,6 +8,7 @@ h1{
 }
 h2{
     font-size: 40px;
+    color:cadetblue;
 }
 h3{
     font-size: 35px;
@@ -48,4 +49,14 @@ p{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100vh;
+}
+#bottom-part{
+    background: rgba(0, 0, 0, 0.938);
+    object-position: center;
+    width: 90%;
+    height: 35vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding-top: 10px;
 }
