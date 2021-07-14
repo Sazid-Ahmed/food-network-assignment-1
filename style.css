@@ -5,10 +5,12 @@ body{
 h1{
     font-size: 50px;
     color: #808080;
+    padding-top: 100px;
 }
 h2{
     font-size: 40px;
     color:cadetblue;
+    padding-top: 50px;
 }
 h3{
     font-size: 35px;
@@ -22,7 +24,7 @@ p{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -50,6 +52,39 @@ p{
     background-size: 100% 100%;
     height: 100vh;
 }
+.recipes{
+    width: 50%;
+    margin-left: 25%;
+}
+p {
+    text-align: center;
+  }
+  h2{
+      text-align: center;
+  }
+.container{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 100vh;
+      align-content:center;
+  }
+  .box{
+      width: 25rem;
+      height: 40rem;
+      margin: 2rem;
+      border-radius: 25px;
+      box-shadow: 5px 5px 20px grey;
+      align-content: left;
+      flex-shrink:
+  }#box-images{
+      width: 350px;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+  }
 #bottom-part{
     background: rgba(0, 0, 0, 0.938);
     object-position: center;
@@ -58,5 +93,6 @@ p{
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 40px;
 }
